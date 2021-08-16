@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
+              <span class="suite-name border-passed">RegressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RegressionSuite" class="navigator-link ">
+                    <span>C:\Selenium Automation Framework\SampleTestNGFramework\Selenium-POM-TestNG-Maven\src\main\resources\TestNgParallelMethods.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RegressionSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RegressionSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RegressionSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RegressionSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RegressionSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RegressionSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase10">testCase10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase11">testCase11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase12">testCase12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase13">testCase13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase14">testCase14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase15">testCase15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase16">testCase16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase17">testCase17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase18">testCase18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase19">testCase19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase20">testCase20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase21">testCase21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase22">testCase22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase23">testCase23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase24">testCase24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase25">testCase25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase26">testCase26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase27">testCase27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase28">testCase28</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase29">testCase29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase30">testCase30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase31">testCase31</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase5">testCase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase6">testCase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase7">testCase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase8">testCase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCase9">testCase9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCaseFour">testCaseFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCaseThree">testCaseThree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.crm.qa.testcases.FlightTestCases_ParallelMethods" class="method navigator-link" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.FlightTestCases_ParallelMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase10">
+                  </a> <!-- testCase10 -->
+                  <span class="method-name">testCase10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase11">
+                  </a> <!-- testCase11 -->
+                  <span class="method-name">testCase11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase12">
+                  </a> <!-- testCase12 -->
+                  <span class="method-name">testCase12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase13">
+                  </a> <!-- testCase13 -->
+                  <span class="method-name">testCase13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase14">
+                  </a> <!-- testCase14 -->
+                  <span class="method-name">testCase14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase15">
+                  </a> <!-- testCase15 -->
+                  <span class="method-name">testCase15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase16">
+                  </a> <!-- testCase16 -->
+                  <span class="method-name">testCase16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase17">
+                  </a> <!-- testCase17 -->
+                  <span class="method-name">testCase17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase18">
+                  </a> <!-- testCase18 -->
+                  <span class="method-name">testCase18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase19">
+                  </a> <!-- testCase19 -->
+                  <span class="method-name">testCase19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase20">
+                  </a> <!-- testCase20 -->
+                  <span class="method-name">testCase20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase21">
+                  </a> <!-- testCase21 -->
+                  <span class="method-name">testCase21</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase22">
+                  </a> <!-- testCase22 -->
+                  <span class="method-name">testCase22</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase23">
+                  </a> <!-- testCase23 -->
+                  <span class="method-name">testCase23</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase24">
+                  </a> <!-- testCase24 -->
+                  <span class="method-name">testCase24</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase25">
+                  </a> <!-- testCase25 -->
+                  <span class="method-name">testCase25</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase26">
+                  </a> <!-- testCase26 -->
+                  <span class="method-name">testCase26</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase27">
+                  </a> <!-- testCase27 -->
+                  <span class="method-name">testCase27</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase28">
+                  </a> <!-- testCase28 -->
+                  <span class="method-name">testCase28</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase29">
+                  </a> <!-- testCase29 -->
+                  <span class="method-name">testCase29</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase30">
+                  </a> <!-- testCase30 -->
+                  <span class="method-name">testCase30</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase31">
+                  </a> <!-- testCase31 -->
+                  <span class="method-name">testCase31</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase5">
+                  </a> <!-- testCase5 -->
+                  <span class="method-name">testCase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase6">
+                  </a> <!-- testCase6 -->
+                  <span class="method-name">testCase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase7">
+                  </a> <!-- testCase7 -->
+                  <span class="method-name">testCase7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase8">
+                  </a> <!-- testCase8 -->
+                  <span class="method-name">testCase8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase9">
+                  </a> <!-- testCase9 -->
+                  <span class="method-name">testCase9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseFour">
+                  </a> <!-- testCaseFour -->
+                  <span class="method-name">testCaseFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseOne">
+                  </a> <!-- testCaseOne -->
+                  <span class="method-name">testCaseOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseThree">
+                  </a> <!-- testCaseThree -->
+                  <span class="method-name">testCaseThree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseTwo">
+                  </a> <!-- testCaseTwo -->
+                  <span class="method-name">testCaseTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+        </div> <!-- panel RegressionSuite -->
+        <div panel-name="test-xml-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium Automation Framework\SampleTestNGFramework\Selenium-POM-TestNG-Maven\src\main\resources\TestNgParallelMethods.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;31&quot; parallel=&quot;methods&quot; name=&quot;RegressionSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crm.qa.reports.ExtentReporterNG&quot;/&gt;
+    &lt;listener class-name=&quot;com.crm.qa.utilities.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.FlightTestCases_ParallelMethods&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionSuite');
+function tableData_RegressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCase10')
+data.setCell(0, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(0, 3, 103);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCase9')
+data.setCell(1, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(1, 3, 103);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCaseTwo')
+data.setCell(2, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(2, 3, 103);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCase29')
+data.setCell(3, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(3, 3, 103);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCase18')
+data.setCell(4, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(4, 3, 87);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCase16')
+data.setCell(5, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(5, 3, 87);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCase27')
+data.setCell(6, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(6, 3, 87);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCaseThree')
+data.setCell(7, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(7, 3, 87);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCase5')
+data.setCell(8, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(8, 3, 87);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCase30')
+data.setCell(9, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(9, 3, 87);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCase20')
+data.setCell(10, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(10, 3, 87);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCase21')
+data.setCell(11, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(11, 3, 87);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCase22')
+data.setCell(12, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(12, 3, 71);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCaseOne')
+data.setCell(13, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(13, 3, 71);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCase17')
+data.setCell(14, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(14, 3, 71);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCase15')
+data.setCell(15, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(15, 3, 71);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCase6')
+data.setCell(16, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(16, 3, 71);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCase31')
+data.setCell(17, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(17, 3, 71);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCase12')
+data.setCell(18, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(18, 3, 71);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCase28')
+data.setCell(19, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(19, 3, 56);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCase8')
+data.setCell(20, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(20, 3, 56);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCase13')
+data.setCell(21, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(21, 3, 56);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCase25')
+data.setCell(22, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(22, 3, 40);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCase23')
+data.setCell(23, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(23, 3, 40);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCase11')
+data.setCell(24, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(24, 3, 40);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testCase19')
+data.setCell(25, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(25, 3, 40);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCase24')
+data.setCell(26, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(26, 3, 40);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCase26')
+data.setCell(27, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(27, 3, 40);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCase7')
+data.setCell(28, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(28, 3, 40);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCase14')
+data.setCell(29, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(29, 3, 40);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCaseFour')
+data.setCell(30, 2, 'com.crm.qa.testcases.FlightTestCases_ParallelMethods')
+data.setCell(30, 3, 40);
+window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-RegressionSuite">
+              </div> <!-- times-div-RegressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.FlightTestCases_ParallelMethods</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase10</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase11</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase12</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase13</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase14</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase15</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase16</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase17</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase18</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase19</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase20</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase21</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase22</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase23</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase24</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase25</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase26</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase27</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase28</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase29</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase30</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase31</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase5</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase6</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase7</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase8</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase9</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseFour</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseOne</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseThree</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseTwo</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

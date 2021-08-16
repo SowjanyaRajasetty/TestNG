@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="com.crm.qa.reports.ExtentReporterNG"/>
+    <listener class-name="com.crm.qa.utilities.AnnotationTransformer"/>
+  </listeners>
+  <test parallel="classes" name="Testing(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.FlightTestCases2">
+        <methods>
+          <include name="TC002_SelectFlightOption"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TC001_CheckifLogoisPresent"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.FlightTestCases2 -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
